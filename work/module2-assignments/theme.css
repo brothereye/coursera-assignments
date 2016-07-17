@@ -1,0 +1,65 @@
+body
+{
+	font-family: Arial;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.menu
+{
+	margin-top: 35px;
+}
+
+h1
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+.meal
+{
+	border: 2px black solid;
+	background-color: #99ff66;
+	float: left;
+	box-sizing: border-box;
+}
+
+.name
+{
+	float: right;
+	clear: right;
+	padding: 5px;
+	border-left: 2px black solid;
+	border-bottom: 2px black solid;
+	font-weight: bold;
+}
+
+.describe
+{
+	float: right;
+	margin: 15px;
+	text-align: justify;
+}
+
+#chicken
+{
+	background-color: #ff6600;
+}
+
+#beef
+{
+	background-color: #ff00ff;
+}
+
+#sushi
+{
+	background-color: #669999;
+}
+
+@media (min-width: 992px)
+{
+	.col-lg-4
+	{
+		width: 33.33%;
+	}
+}
