@@ -1,4 +1,9 @@
-﻿body
+﻿*
+{
+    box-sizing: border-box;
+}
+
+body
 {
     background-color: #cce6ff;
     font-family: Arial;
@@ -14,7 +19,7 @@
 .navbar-brand h1
 {
     color: #fff;
-    margin: -10px 0 0 0;
+    margin-top: -10px;
     padding: 0;
 }
 
@@ -23,3 +28,7 @@
     text-decoration: none;
 }
 
+#collapse-nav li
+{
+    border: 1px yellow solid;
+}
