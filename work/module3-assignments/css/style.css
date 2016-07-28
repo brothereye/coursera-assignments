@@ -32,7 +32,12 @@ body
 
 #collapse-nav li
 {
-    border: 1px yellow solid;
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 5px;
+    font-weight: bold;
 }
 /*END OF NAVBAR*/
 
