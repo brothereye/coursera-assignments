@@ -10,6 +10,8 @@ body
     font-size: 15px;
 }
 
+
+/*NAVBAR*/
 #header-nav
 {
     background-color: #ff1a1a;
@@ -32,3 +34,29 @@ body
 {
     border: 1px yellow solid;
 }
+/*END OF NAVBAR*/
+
+/*BODY*/
+.dish
+{
+    margin-top: 15px;
+}
+
+.section
+{
+    background-color: #99ff99;
+    padding:15px;
+    border: 10px red double;
+}
+
+.section>h2
+{
+    margin-top: 0px;
+}
+
+h2
+{
+    font-weight: bold;
+    text-shadow: 0 0 5px #3399ff;
+}
+/*END OF BODY*/
