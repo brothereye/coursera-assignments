@@ -25,7 +25,7 @@ body
     padding: 0;
 }
 
-.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:disabled
+.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:disabled, .section a:hover, .section a:active, .section a:disabled
 {
     text-decoration: none;
 }
